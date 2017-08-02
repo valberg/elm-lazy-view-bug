@@ -106,6 +106,7 @@ view model =
                 ]
 
         False ->
+            -- NOTE!: If the following `h4` is turned into a `div` the error does not occur.
             h4 [] [ text "Loading..." ]
 
 
